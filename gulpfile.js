@@ -38,6 +38,7 @@ gulp.task('images',function(){
 /*
   Browser Sync
 */
+/*
 gulp.task('browser-sync', function() {
     browserSync({
         // we need to disable clicks and forms for when we test multiple rooms
@@ -46,6 +47,7 @@ gulp.task('browser-sync', function() {
         ghostMode: false
     });
 });
+*/
 
 function handleErrors() {
   var args = Array.prototype.slice.call(arguments);

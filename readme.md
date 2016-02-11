@@ -22,3 +22,5 @@ The goal of the app is to allow users the ability to manage a series of cards an
 9. `touch index.html`
 10. `npm install --save gulp`
 11. `touch gulpfile.js`
+12. `npm install --save vinyl-source-stream`
+13. `npm install --save browserify`
