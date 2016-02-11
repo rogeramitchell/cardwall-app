@@ -17,4 +17,4 @@ var App = React.createClass({
   }
 });
 
-ReactDOM.render(App, document.querySelector('#main'));
+ReactDOM.render(<App/>, document.querySelector('#main'));
