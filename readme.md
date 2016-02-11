@@ -17,4 +17,6 @@ The goal of the app is to allow users the ability to manage a series of cards an
 	- package.json
 	- node_modules/
 	- readme.md
-
+7. `mkdir css`
+8. `mkdir scripts`
+9. `touch index.html`
