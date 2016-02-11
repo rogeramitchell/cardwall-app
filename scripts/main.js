@@ -5,10 +5,18 @@ var App = React.createClass({
   render : function() {
     return (
       <div>
-      <div className="page-header">
-          <h1>Cardwall App</h1>
+      <div className="header-container">
+          <div className="page-header">
+            <h1>Cardwall App</h1>
+          </div>
+          <div className="page-search">
+            <form action="" id="search">
+              <input type="text" id="searchBox" placeholder="Start searching..."/>
+              <input type="submit" id="searchSubmit" value="Search"/>
+            </form>
+          </div>
       </div>
-      <div className="container">
+      <div className="column-container">
         <div className="card-column">
           <div className="card-column-header">
             {/* This is the header for a given card column */}

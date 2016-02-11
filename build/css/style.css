@@ -1,13 +1,21 @@
-.page-header {
+.header-container {
   position: fixed;
-  top: 0px;
-  left: 10px;
+  display: flex;
+  width: 100%;
 }
 
-.container {
-  margin-top: 50px;
+.page-header {
+  flex-grow: 1;
+}
+
+.page-search {
+  flex-grow: 4;
+}
+
+.column-container {
   display: flex;
   min-height: 100vh;
+  margin-top: 30px;
 }
 
 .card-column {
