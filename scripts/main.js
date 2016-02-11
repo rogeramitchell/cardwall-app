@@ -5,13 +5,12 @@ var App = React.createClass({
   render : function() {
     return (
       <div className="container">
-        <p>test 2</p>
-        <div className="card-column"></div>
-        <div className="card-column"></div>
-        <div className="card-column"></div>
-        <div className="card-column"></div>
-        <div className="card-column"></div>
-        <div className="card-column"></div>
+        <div className="card-column">This is a column</div>
+        <div className="card-column">This is a column</div>
+        <div className="card-column">This is a column</div>
+        <div className="card-column">This is a column</div>
+        <div className="card-column">This is a column</div>
+        <div className="card-column">This is a column</div>
       </div>      
       )
   }
