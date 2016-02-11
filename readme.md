@@ -20,3 +20,5 @@ The goal of the app is to allow users the ability to manage a series of cards an
 7. `mkdir css`
 8. `mkdir scripts`
 9. `touch index.html`
+10. `npm install --save gulp`
+11. `touch gulpfile.js`
