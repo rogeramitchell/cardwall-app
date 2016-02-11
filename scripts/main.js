@@ -1,14 +1,19 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Card = React.createClass({
+var App = React.createClass({
   render : function() {
     return (
-      <div className="card-view">
-        <p>This is hello</p>
+      <div className="container">
+        <div className="card-column"></div>
+        <div className="card-column"></div>
+        <div className="card-column"></div>
+        <div className="card-column"></div>
+        <div className="card-column"></div>
+        <div className="card-column"></div>
       </div>      
       )
   }
 });
 
-ReactDOM.render(Card, document.querySelector('#main'));
+ReactDOM.render(App, document.querySelector('#main'));

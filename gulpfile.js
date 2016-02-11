@@ -5,9 +5,6 @@ var browserify = require('browserify');
 var babelify = require('babelify');
 var watchify = require('watchify');
 var notify = require('gulp-notify');
-
-var stylus = require('gulp-stylus');
-var autoprefixer = require('gulp-autoprefixer');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var buffer = require('vinyl-buffer');
@@ -38,7 +35,6 @@ gulp.task('images',function(){
 /*
   Browser Sync
 */
-/*
 gulp.task('browser-sync', function() {
     browserSync({
         // we need to disable clicks and forms for when we test multiple rooms
@@ -47,7 +43,6 @@ gulp.task('browser-sync', function() {
         ghostMode: false
     });
 });
-*/
 
 function handleErrors() {
   var args = Array.prototype.slice.call(arguments);

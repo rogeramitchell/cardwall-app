@@ -8,6 +8,7 @@ The goal of the app is to allow users the ability to manage a series of cards an
 - Drag and drop cards from one column to another
 
 ## Development Environment Setup Steps
+A small sidenote regarding the number of `npm install` that are occurring: I'm working with this for the first time, so it's a learning curve to get the right things into my `package.json` for using Gulp. It also might be an issue that my `gulpfile.js` has extraneous tasks in it.
 1. `take` to a new directory
 2. `git init`
 3. `npm init`
@@ -24,3 +25,4 @@ The goal of the app is to allow users the ability to manage a series of cards an
 11. `touch gulpfile.js`
 12. `npm install --save vinyl-source-stream`
 13. `npm install --save browserify`
+14. `npm install --save watchify`
