@@ -1,0 +1,11 @@
+{
+  "name": "cardwall-app",
+  "version": "1.0.0",
+  "description": "A React app built for managing development tickets or issues in a cardwall format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
